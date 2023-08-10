@@ -1,4 +1,5 @@
 function GuestForm({handleSubmit, newGuestName, setNewGuestName, newGuestMeal, setNewGuestMeal}) {
+    
     return (
         <>
         <form onSubmit={handleSubmit}>
@@ -43,6 +44,7 @@ function GuestForm({handleSubmit, newGuestName, setNewGuestName, newGuestMeal, s
         <button type="submit">Add Guest</button>
       </form>
         </>
+
     )
 }
 
